@@ -236,11 +236,9 @@ var doubleArr = function(randArry1, randArry2) {
 
   if(randArry1.length > randArry2.length) {
     return randArry1;
-  } else if(randArry1.length < randArry2.length) {
-    return randArry2;
   } else {
-    return "Equal";
-  }
+    return randArry2;
+  } 
 }
 myNewRandArry = doubleArr(arr1, arr2);
 console.log(myNewRandArry);
@@ -265,14 +263,5 @@ var both = function(randArry1, randArry2) {
 }
 myNewArry = both(arr1, arr2);
 console.log(myNewArry);
-
-// var both = function(randArry1, randArry2) {
-//   var newArray = randArry1.concat(randArry2);
-//   console.log('randArry1: ' + randArry1);
-//   console.log('randArry2: ' + randArry2);
-// }
-// myNewArry = both(arr1, arr2);
-// console.log(myNewArry);
-
 
 
